@@ -22,7 +22,7 @@ public class Random {
     /**
      * Generators mask (and maximum value).
      */
-    private static final int MASK = (1 << 31) - 1;
+    private static final int MASK = 0x7fffffff;
 
     /**
      * Generic constructor.
